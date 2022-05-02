@@ -1,7 +1,6 @@
 
 const express = require('express');
 const app = express();
-const PORT = 4000;
 
 app.get('/', (req, res) => {
     res.send({
@@ -11,6 +10,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(PORT || 3000, () => {
+app.listen(8080,'0.0.0.0', () => {
     console.log(`Proyecto Aide escuchando en el puerto ${ PORT }`);
 })
