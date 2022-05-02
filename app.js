@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 
 
 app.listen(8080,'0.0.0.0', () => {
-    console.log(`Proyecto Aide escuchando en el puerto ${ PORT }`);
+    console.log(`Proyecto Aide escuchando en el puerto secreto`);
 })
